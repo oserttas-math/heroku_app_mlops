@@ -1,4 +1,6 @@
-name: heroku_pone
+# run
+# conda env create -f env.yml
+name: heroku_app
 channels:
   - conda-forge
   - defaults
@@ -13,4 +15,5 @@ dependencies:
   - fastapi=0.63.0
   - jupyter
   - dvc
+  - awscli=1.22.12
   - python=3.8
